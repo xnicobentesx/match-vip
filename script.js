@@ -36,7 +36,7 @@ if (loginForm) {
         // Na vida real, você enviaria esses dados para um servidor
         console.log(`Tentativa de Login: ${email}, Senha: ${password}`);
 
-        if (email === "vip@match.com" && password === "1234") {
+        if (email === "vip@match.com" && password === "documento2025") {
             alert("Login bem-sucedido! Redirecionando para o Dashboard Vip.");
             // Redireciona para o dashboard
             window.location.href = 'dashboard.html';
@@ -116,4 +116,5 @@ function logout() {
 }
 
 // Inicia a renderização quando a página carrega
+
 document.addEventListener('DOMContentLoaded', renderMatches);
