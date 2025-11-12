@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Vip - Sua Conexão Exclusiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Match Vip</h1>
+        <p class="slogan">Combinando conexões em um ambiente exclusivo.</p>
+        
+        <div class="card" id="login-card">
+            <h2>Fazer Login</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Seu E-mail Vip" required>
+                <input type="password" id="login-password" placeholder="Sua Senha Secreta" required>
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+            <p>Não tem conta? <a href="#" id="show-register">Cadastre-se</a></p>
+        </div>
+
+        <div class="card hidden" id="register-card">
+            <h2>Criar Conta Vip</h2>
+            <form id="register-form">
+                <input type="text" id="reg-name" placeholder="Seu Nome Vip" required>
+                <input type="email" id="reg-email" placeholder="Seu E-mail" required>
+                <input type="password" id="reg-password" placeholder="Crie uma Senha" required>
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+            <p>Já é membro? <a href="#" id="show-login">Fazer Login</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
